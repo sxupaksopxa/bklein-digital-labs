@@ -5,7 +5,6 @@ Static React + Vite website for BKlein Digital Labs.
 ## Purpose
 
 This website is the central entry point for BKlein Digital Labs projects, contact, collaboration, and partnership conversations.
-
 The focus is the experience of building practical AI solutions through testing, feedback, and collaboration.
 
 ## Pages
@@ -37,13 +36,3 @@ GitHub → Azure Static Web App
 ```
 
 No backend is required for v1.
-
-## Next adjustments
-
-Update these placeholders before deployment:
-
-- LinkedIn link
-- GitHub link
-- Email address
-- Project demo links
-- Public GitHub repository links where available

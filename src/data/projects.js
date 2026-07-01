@@ -16,7 +16,7 @@ export const projects = [
     tagline: "Helping organizations identify potential AI risks before implementation.",
     audience: "Organizations, compliance teams, AI project owners, consultants",
     value: "A practical screening tool for evaluating AI use cases, identifying potential risk categories, and understanding governance considerations under the EU AI Act.",
-    status: "Beta",
+    status: "MVP",
     lookingFor: ["AI use case testing", "Regulatory feedback", "Governance review", "Partnership ideas"],
     website: "https://www.ai-risk-screener.com/",
     github: "https://github.com/sxupaksopxa/AI-Risk-screener",
@@ -52,15 +52,52 @@ export const projects = [
     status: "Development",
     lookingFor: ["Task ideas", "Model feedback", "Evaluation criteria", "Open-source contributions"],
     website: "",
-    github: "",
+    github: "https://github.com/sxupaksopxa/ai-model-evaluation-tool",
   },
+{
+  id: "digital-trust-profile",
+  title: "Digital Trust Profile",
+  tagline: "A machine-readable trust profile for the AI era.",
+  audience:
+    "Organizations, AI agents, enterprise platforms, procurement systems, governance and compliance teams, browser extensions, security platforms, and developers",
+  value:
+    "Digital Trust Profile (DTP) is a proposed open standard that enables digital services, AI systems, and autonomous agents to publish structured trust information, helping people and automated systems make informed trust decisions.",
+  status: "Draft Specification",
+  lookingFor: [
+    "Early feedback",
+    "Technical reviewers",
+    "Industry partners",
+    "Open-source contributors"
+  ],
+  website: "",
+  github: "https://github.com/sxupaksopxa/digital-trust-profile",
+},
+
+{
+  id: "observation-suite",
+  title: "Observation Suite",
+  tagline: "An enterprise platform for AI-powered observation, monitoring, and operational insights.",
+  audience:
+    "Enterprise IT teams, security operations, AI operations, governance and compliance teams, and platform engineers",
+  value:
+    "Observation Suite (OSuite) collects observations from multiple sources, analyzes them using AI, and provides actionable insights, helping organizations improve visibility, governance, and operational decision-making.",
+  status: "Development",
+  lookingFor: [
+    "Early feedback",
+    "Technical reviewers",
+    "Industry partners",
+    "Open-source contributors"
+  ],
+  website: "",
+  github: "",
+},
   {
     id: "mdbook-suite",
     title: "mdBook Suite",
     tagline: "Helping knowledge evolve from static documents into accessible digital experiences.",
     audience: "Technical writers, educators, teams, open-source communities",
     value: "A practical toolkit for creating, reading, and transforming mdBooks, making knowledge easier to publish, navigate, and share.",
-    status: "Beta",
+    status: "Development",
     lookingFor: ["User feedback", "Documentation testing", "Open-source contributors", "Partnership ideas"],
     website: "",
     github: "",

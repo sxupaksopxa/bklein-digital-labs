@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="bg-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-20 md:grid-cols-[1.3fr_0.7fr] md:items-center">
         <div>
-          <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-950 md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-slate-950 md:text-6xl">
             Building practical AI solutions for a digital world
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">

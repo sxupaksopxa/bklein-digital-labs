@@ -6,6 +6,9 @@ const HomePage = lazy(() => import("./pages/HomePage.jsx"));
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage.jsx"));
 const CollaboratePage = lazy(() => import("./pages/CollaboratePage.jsx"));
 const ContactPage = lazy(() => import("./pages/ContactPage.jsx"));
+const BlogPage = lazy(() => import("./pages/BlogPage.jsx"));
+const BlogArticle = lazy(() => import("./pages/BlogArticle.jsx"));
+
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage.jsx"));
 const TermsPage = lazy(() => import("./pages/TermsPage.jsx"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage.jsx"));
@@ -49,6 +52,26 @@ const routes = [
           <ErrorBoundary>
             <Suspense fallback={<PageLoader />}>
               <CollaboratePage />
+            </Suspense>
+          </ErrorBoundary>
+        ),
+      },
+      {
+        path: "blog",
+        element: (
+          <ErrorBoundary>
+            <Suspense fallback={<PageLoader />}>
+              <BlogPage />
+            </Suspense>
+          </ErrorBoundary>
+        ),
+      },
+      {
+        path: "blog/:slug",
+        element: (
+          <ErrorBoundary>
+            <Suspense fallback={<PageLoader />}>
+              <BlogArticle />
             </Suspense>
           </ErrorBoundary>
         ),
